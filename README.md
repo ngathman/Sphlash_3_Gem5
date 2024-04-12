@@ -15,9 +15,12 @@ I encountered fopen errors while debugging, so if you encounter an error related
 The results are stored in m5out/stat.txt
 
 To run a benchmark, use the following example that runs Barnes.
+
 build/ECE666/gem5.opt configs/splash2/run.py -b Barnes -n 4
 
-To run the benchmark with traces, add --debug-flags=ProtocolTrace after gem5.opt. Beware, the trace will increase simulation time. 
+To run the benchmark with traces, add --debug-flags=ProtocolTrace after gem5.opt. Beware, the trace will increase simulation time significantly. 
+
+
 
 
 Splash 3 Source code citation
