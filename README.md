@@ -1,6 +1,6 @@
 # Splash_3_Gem5
 
-codes/ directory contains the compiled Splash 3 benchmarks. The source code comes from the following repository https://github.com/SakalisC/Splash-3 with the citation below.  If you make changes to the source code, you must recompile by calling "make" in the /codes directory
+codes/ directory contains the compiled Splash 3 benchmarks. The source code comes from the following repository https://github.com/SakalisC/Splash-3 with the citation below.  If you make changes to the source code, you must recompile by calling "make" in the /codes directory. Benchmark files are Splash 3, but the Gem5 splash run file only supports Splash 2 benchmarks, so there are some benchmarks in codes/ that are not supported in the run file.
   
 
 Prior to this work, there was already a python run file, run.py, for Splash under configs/splash2. This python file contained non-existent root paths to the benchmarks and did not support a Ruby system. The SPEC benchmark python file spec_se.py under configs/spec did support using a Ruby system. Thus, the changes in run.py are a combination of spec_se.py and run.py.
